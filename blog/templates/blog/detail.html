@@ -1,4 +1,4 @@
-e<!doctype html>
+<!doctype html>
 <html lang="en">
 {% load staticfiles %}
 <head>
@@ -43,7 +43,7 @@ e<!doctype html>
       <img class="img-fluid" src="{{ blogdetail.image.url }}" />
 
       <br />
-      <p>{{ blogdetail.summary }}</p>
+      <p>{{ blogdetail.body }}</p>
 
       <br /><br /><br />
 
@@ -53,7 +53,7 @@ e<!doctype html>
 
   <footer class="text-muted">
     <div class="container text-center">
-      <p>CopyRight TxTing {% now "Y" %}</p>
+      <p>© TxTing {% now "Y" %}</p>
     </div>
   </footer>
 
